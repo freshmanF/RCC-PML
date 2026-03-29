@@ -15,8 +15,7 @@ cfg = struct(   'exampledata',        [4 5 6]);
 datasets = fieldnames(cfg);
 
 
-feaNoiseRate = 0.3;         
-rng(0);               
+feaNoiseRate = 0.3;                  
 
 for di = 1:numel(datasets)
     ds = datasets{di};
